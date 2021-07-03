@@ -26,6 +26,17 @@ def metrics():
     app.logger.info('Metrics request successfull')
     return response
 
+@app.route('/blog')
+def blog():
+    response = app.response_class(
+            response=json.dumps({"status":"success","code":0,"data":{"UserCount":140,"UserCountActive":23}}),
+            status=200,
+            mimetype='application/json'
+    )
+
+    app.logger.info('Blog creation successfull')
+    return response
+
 @app.route("/")
 def hello():
     app.logger.info('Main request successfull')
