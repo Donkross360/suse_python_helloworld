@@ -1,1 +1,1 @@
-# suse_python_helloworld
+# github actions exercise
