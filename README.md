@@ -1,2 +1,2 @@
 
-## Github actions exercise from scrath!
+## Github actions exercise
